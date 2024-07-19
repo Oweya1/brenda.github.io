@@ -1,0 +1,51 @@
+.courses .heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.course-container {
+  display: block;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.course-container .box {
+  flex: 1 1 16rem;
+  text-align: center;
+
+  box-shadow: 0px 4px 4px rgba(14, 55, 54, 0.15);
+  padding: 20px;
+}
+
+.box img {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  border: 2px solid var(--second-color);
+  
+  display: block;
+  margin: 0 auto;
+}
+
+.box p {
+  margin: 0.5rem 0 1rem;
+}
+
+.box h3 {
+  font-size: 1.2rem;
+  color: #000000;
+  letter-spacing: 1px;
+}
+ h2{
+  font-size: 2rem;
+  color: #000000;
+  letter-spacing: 1px;
+  font: bold;
+}
+
+.stars {
+  color: gold;
+}
